@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					D7A6337C1E80261D007523BE = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MW5233CR9L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +261,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MW5233CR9L;
 				INFOPLIST_FILE = MobileMapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.617017.MobileMapper;
@@ -272,6 +275,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MW5233CR9L;
 				INFOPLIST_FILE = MobileMapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.617017.MobileMapper;
